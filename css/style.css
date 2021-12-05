@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 20px;
+}
+
+.display{
+    width: 247px;
+    height: 35px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 8px;
+    text-align: end;
+}
+
+button{
+    width: 50px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+    border: 0;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.long{
+    width: 115px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+}
